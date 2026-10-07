@@ -1,4 +1,4 @@
-# EEG Lying-Probe Detection: Feature Extraction and Machine Learning
+<img width="843" height="672" alt="image" src="https://github.com/user-attachments/assets/f5a14f79-98ca-4cb2-8864-df6aea8c0634" /># EEG Lying-Probe Detection: Feature Extraction and Machine Learning
 
 A BCI-style pipeline that classifies EEG responses to **lying probe** vs **innocent probe** stimuli.
 
@@ -43,3 +43,5 @@ Addressing this (class weighting, resampling, balanced accuracy / F1 / ROC-AUC, 
 - Features are computed on a single channel (Pz) and one frequency band.
 - `extract_positive_area_voltage` clips negative values in place, which affects the other features computed afterwards.
 - Cross-validation is not grouped by subject, so recordings from the same person may appear in both train and test.
+## Feature curve before SVM classification
+![Featurescurve]<img width="907" height="676" alt="Features curve" src="https://github.com/user-attachments/assets/767dd7a9-7cb6-4ff7-a80c-27df4570f4a4" />
