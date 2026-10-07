@@ -1,0 +1,15 @@
+# EEG data (privacy / size) - do not commit
+Final Data/
+data/
+*.set
+*.fdt
+
+# Large outputs
+*.pdf
+*.npy
+*.pkl
+
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
+.venv/
