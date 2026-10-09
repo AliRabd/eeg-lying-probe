@@ -1,4 +1,4 @@
-<img width="843" height="672" alt="image" src="https://github.com/user-attachments/assets/f5a14f79-98ca-4cb2-8864-df6aea8c0634" /># EEG Lying-Probe Detection: Feature Extraction and Machine Learning
+# EEG Lying-Probe Detection: Feature Extraction and Machine Learning
 
 A BCI-style pipeline that classifies EEG responses to **lying probe** vs **innocent probe** stimuli.
 
